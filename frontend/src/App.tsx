@@ -1,5 +1,8 @@
 import React from "react";
 import NavBar from './components/NavBar'
+import DarkModeButton from "./components/DarkModeButton";
+import ThemeContext from "./ThemeContext";
+import { useState } from "react";
 import AllEntries from './routes/AllEntries'
 import NewEntry from './routes/NewEntry'
 import EditEntry from './routes/EditEntry'
@@ -11,20 +14,27 @@ import {
 } from "react-router-dom";
 
 export default function App() {
+  const [themeClass, setThemeClass] = useState("light");
   return (
-    <section>
+  <section>
   <Router>
-    <EntryProvider>
-    <NavBar></NavBar>
-      <Routes>
-        <Route path="/" element={<AllEntries/>}>
-        </Route>
-        <Route path="create" element={<NewEntry/>}>
-        </Route>
-        <Route path="edit/:id" element={<EditEntry/>}>
-        </Route>
-      </Routes>
-    </EntryProvider>
+  <ThemeContext.Provider value={{ themeClass, setThemeClass }}>
+      <div className={themeClass}>
+        <div className="text-slate-900 bg-slate-100 h-screen  justify-center items-center dark:text-slate-100 dark:bg-slate-900">
+          <EntryProvider>
+          <NavBar></NavBar>
+            <Routes>
+              <Route path="/" element={<AllEntries/>}>
+              </Route>
+              <Route path="create" element={<NewEntry/>}>
+              </Route>
+              <Route path="edit/:id" element={<EditEntry/>}>
+              </Route>
+            </Routes>
+          </EntryProvider>
+          </div>
+      </div>
+    </ThemeContext.Provider>
     </Router>
     </section>
     
