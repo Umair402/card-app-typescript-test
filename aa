@@ -1,0 +1,125 @@
+[33mcommit 64e1dcafead2ac1531009171a77b716e27f02b3d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Umair402 <umair.qureshi@hotmail.co.uk>
+Date:   Tue Nov 5 21:50:10 2024 +0000
+
+    added Dark Mode button
+
+[33mcommit 331d94c143ca7ad23c12ce98fccd1eba0297a1a4[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: d1ada2e 98628f1
+Author: TimMurnaghan <tim@analyticrisktechnology.co.uk>
+Date:   Wed Jun 7 14:39:39 2023 +0100
+
+    Merge pull request #1 from alexrichardson1/master
+    
+    Test V2
+
+[33mcommit 98628f1d88fae9c87614bdf2e34cae29caf8273c[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Wed Jun 7 14:36:03 2023 +0100
+
+    fix: Use `Date` constructor in `/update/:id`
+
+[33mcommit f1d4b8a8fee304c13ce9385d9d3e3a2dca6e542c[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Thu May 25 14:16:08 2023 +0100
+
+    chore: Setup git hooks & formatter
+
+[33mcommit 80dc6dd72e03d048fe40a8b1d8ce4e81dfe28526[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Thu May 25 13:45:45 2023 +0100
+
+    feat: Add `nodemon` `dev` script
+
+[33mcommit 92bb40fb053c843ab4068fc05915cae575cfd949[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Thu May 25 10:31:03 2023 +0100
+
+    refactor: Reply with status code `500` if no db entry found
+
+[33mcommit 888ac65681b7b5bb19f7a3404f5abf1f238464f8[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Thu May 25 10:30:17 2023 +0100
+
+    refactor: Change `/get/:id` to use `findUnique`
+
+[33mcommit adc9e318471399f07e3f8fe320f9e453f22242bf[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Thu May 25 10:15:34 2023 +0100
+
+    chore: Add hint `Prisma` import
+
+[33mcommit a8a2189ceea81d3fa421a0cacdce0362b99f0162[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Thu May 25 10:10:00 2023 +0100
+
+    chore: Change `dev` script to `start`
+
+[33mcommit 448a5a0a979deab67bd737643bfd7da5075e0886[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Thu May 25 10:01:09 2023 +0100
+
+    docs: Add command for tests
+
+[33mcommit d1ada2e5e503560db33d9ad72dca81f7a3aa2e5d[m
+Merge: f9a56cc 9828056
+Author: TimMurnaghan <tim@analyticrisktechnology.co.uk>
+Date:   Tue Apr 25 08:56:42 2023 +0100
+
+    Merge pull request #1 from alexrichardson1/master
+    
+    Test Suite
+
+[33mcommit 98280561e7b21fed5327b1fb2f2c1ead8b091688[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Fri Apr 21 15:35:53 2023 +0100
+
+    docs: Add clue for `jest`
+
+[33mcommit 9e98716dea13d478d03b4014392dccefce58c859[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Fri Apr 21 14:36:49 2023 +0100
+
+    test: Add test suite
+
+[33mcommit 7bb4cbf978a099f551fe62fbfd4431711a9f2d36[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Fri Apr 21 12:46:14 2023 +0100
+
+    refactor: Split server & app
+
+[33mcommit 00247f52e71b9d7e1203360df92a4d2516e80b5c[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Fri Apr 21 12:45:33 2023 +0100
+
+    chore: Ignore prisma file
+
+[33mcommit c7e29b5299523b9fe34162baf9cc78ea0e413b6f[m
+Author: Alex Richardson <57875675+alexrichardson1@users.noreply.github.com>
+Date:   Fri Apr 21 12:45:02 2023 +0100
+
+    docs: Add information for Prisma extension
+
+[33mcommit f9a56cc24ae6b113f8079eecc7126482cdf5795f[m
+Author: Timm <tim.murnaghan@integrumesg.com>
+Date:   Fri Apr 21 11:17:15 2023 +0100
+
+    README updates
+
+[33mcommit 4c6b04f1f60522aae1752c3c4b4054b4ec094119[m
+Author: Timm <tim.murnaghan@integrumesg.com>
+Date:   Thu Apr 20 16:27:37 2023 +0100
+
+    tweaks to run out of the box
+
+[33mcommit 4c6a23b70650b631ff294a452028fe4d86580c4e[m
+Author: Thomi Widescreen <78746620+ThomiWidescreen@users.noreply.github.com>
+Date:   Fri May 13 23:17:47 2022 -0300
+
+    new readme
+
+[33mcommit a176d2ef8e39cd55d7add5c55a79f8af350562fb[m
+Author: Thomi Widescreen <78746620+ThomiWidescreen@users.noreply.github.com>
+Date:   Fri May 13 23:16:28 2022 -0300
+
+    first commit
